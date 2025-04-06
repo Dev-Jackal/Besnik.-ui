@@ -27,10 +27,30 @@ a {
     max-width: calc(100% - 48px);
     margin: 0 auto;
 }
+
+.btn {
+    display: block;
+    min-width: 186px;
+    line-height: 68px;
+    border: none;
+    border-radius: 14px;
+    background-color: #1ebfc1;
+    text-align: center;
+    color: var(--white-color);
+    font-size: 1.8rem;
+    font-weight: 600;
+    cursor: pointer;
+}
+
+.btn:hover {
+    opacity: 0.9;
+}
 /* ========== Header ========== */
 .header {
     position: sticky;
     top: -34px;
+    z-index: 1;
+    background-color: var(--white-color);
 }
 
 .header .nav {
@@ -90,4 +110,105 @@ a {
 .header .nav .actions .btn-actions:hover {
     color: var(--white-color);
     background-color: var(--primary-color);
+}
+
+/* ========== Hero ========== */
+.hero {
+    padding: 34px 0 16px;
+}
+
+.hero .wrapper {
+    display: flex;
+}
+
+.hero .wrapper .info-block {
+    width: 40%;
+}
+
+.hero .wrapper .info-block .sub-title {
+    margin-top: 128px;
+    color: #767e7e;
+    font-size: 1.4rem;
+}
+
+.hero .wrapper .info-block .main-heading {
+    margin-top: 18px;
+    color: var(--black-color);
+    font-size: 6.2rem;
+    font-weight: 700;
+    line-height: 1.18;
+}
+
+.hero .wrapper .info-block .desc {
+    margin-top: 46px;
+    width: 374px;
+    color: #9da6a5;
+    font-size: 1.8rem;
+    line-height: 1.78;
+}
+
+.hero .wrapper .info-block .cta-group {
+    margin-top: 52px;
+    display: flex;
+    align-items: center;
+}
+
+.hero .wrapper .info-block .cta-group .play-btn {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 62px;
+    height: 62px;
+    margin-left: 50px;
+    border-radius: 50%;
+    background-color: var(--white-color);
+    border: 1px solid var(--primary-color);
+}
+
+.hero .wrapper .info-block .cta-group .play-btn:hover {
+    opacity: 0.8;
+}
+
+.hero .wrapper .image-block {
+    position: relative;
+    width: 60%;
+}
+
+.hero .wrapper .image-block .image-media {
+    background-color: #e0f7f6;
+    width: 576px;
+    height: 631px;
+    object-fit: cover;
+    margin-left: 136px;
+}
+
+.hero .wrapper .image-block .courses-block .image-wrapper-courses {
+    position: relative;
+}
+
+.hero .wrapper .image-block .courses-block .image-wrapper-courses .book-bottom {
+    position: absolute;
+    top: 28px;
+    left: 4px;
+}
+
+.hero .wrapper .image-block .courses-block {
+    display: flex;
+    align-items: center;
+    padding: 18px 25px;
+    gap: 16px;
+    position: absolute;
+    top: 149px;
+    left: 96px;
+    width: 157px;
+    height: 75px;
+    background-color: var(--white-color);
+    border-radius: 18px;
+    box-shadow: 0px 10px 80px 0px rgba(0, 0, 0, 0.05);
+}
+
+.hero .wrapper .image-block .courses-block .desc {
+    color: #0d1111;
+    font-size: 1rem;
+    font-weight: 500;
 }
