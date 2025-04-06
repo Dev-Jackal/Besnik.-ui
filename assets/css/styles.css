@@ -28,10 +28,15 @@ a {
     margin: 0 auto;
 }
 /* ========== Header ========== */
+.header {
+    position: sticky;
+    top: -34px;
+}
+
 .header .nav {
     display: flex;
     align-items: center;
-    padding-top: 52px;
+    padding: 52px 0 16px;
 }
 
 .header .nav .nav-list {
@@ -62,6 +67,10 @@ a {
 .header .nav .actions a {
     color: #494949;
     font-size: 1.6rem;
+}
+
+.header .nav .actions a:hover:first-of-type {
+    text-decoration: underline;
 }
 
 .header .nav .actions .btn-actions {
