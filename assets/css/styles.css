@@ -43,7 +43,7 @@ a {
 }
 
 .btn:hover {
-    opacity: 0.9;
+    opacity: 0.8;
 }
 /* ========== Header ========== */
 .header {
@@ -114,13 +114,14 @@ a {
 
 /* ========== Hero ========== */
 .hero {
-    padding: 34px 0 16px;
+    padding: 34px 0 80px;
 }
 
 .hero .wrapper {
     display: flex;
 }
 
+/* Hero left */
 .hero .wrapper .info-block {
     width: 40%;
 }
@@ -157,7 +158,7 @@ a {
     display: flex;
     align-items: center;
     justify-content: center;
-    width: 62px;
+    min-width: 62px;
     height: 62px;
     margin-left: 50px;
     border-radius: 50%;
@@ -166,9 +167,10 @@ a {
 }
 
 .hero .wrapper .info-block .cta-group .play-btn:hover {
-    opacity: 0.8;
+    opacity: 0.7;
 }
 
+/* Hero right */
 .hero .wrapper .image-block {
     position: relative;
     width: 60%;
@@ -176,10 +178,13 @@ a {
 
 .hero .wrapper .image-block .image-media {
     background-color: #e0f7f6;
+    margin-left: 136px;
+}
+
+.hero .wrapper .image-block .image-media img {
     width: 576px;
     height: 631px;
     object-fit: cover;
-    margin-left: 136px;
 }
 
 .hero .wrapper .image-block .courses-block .image-wrapper-courses {
@@ -211,4 +216,157 @@ a {
     color: #0d1111;
     font-size: 1rem;
     font-weight: 500;
+}
+
+.hero .wrapper .image-block .schedules-block {
+    position: absolute;
+    top: 454px;
+    left: 70px;
+    width: 124px;
+    height: 132px;
+    padding: 16px 25px 24px;
+    border-radius: 24px;
+    background-color: #fff;
+    box-shadow: 0px 10px 80px 0px rgba(0, 0, 0, 0.05);
+}
+
+.hero .wrapper .image-block .schedules-block .desc {
+    color: var(--black-color);
+    font-size: 1rem;
+    font-weight: 500;
+    text-align: center;
+}
+
+.hero .wrapper .image-block .schedules-block .outline-bottom {
+    margin-top: 16px;
+}
+
+.hero .wrapper .image-block .schedules-block .outline-bottom img:nth-child(2) {
+    margin-top: 12px;
+}
+
+.hero .wrapper .image-block .schedules-block .outline-bottom img:nth-child(3) {
+    margin-top: 10px;
+}
+
+.hero .wrapper .image-block .schedules-block .outline-bottom img:nth-child(4) {
+    display: block;
+    margin: 16px auto 0;
+}
+
+.hero .wrapper .image-block .active-students {
+    position: absolute;
+    right: 45px;
+    bottom: 41px;
+    width: 207px;
+    height: 90px;
+    padding: 17px 35px;
+    border-radius: 24px;
+    background-color: var(--white-color);
+    box-shadow: 0px 12px 80px 0px rgba(0, 0, 0, 0.05);
+}
+
+.hero .wrapper .image-block .active-students .desc {
+    color: var(--black-color);
+    font-size: 1rem;
+    font-weight: 500;
+}
+
+.hero .wrapper .image-block .active-students .avatar-students {
+    display: flex;
+    align-items: center;
+    margin-top: 8px;
+}
+
+.hero
+    .wrapper
+    .image-block
+    .active-students
+    .avatar-students
+    .img-avatar-students {
+    min-width: 33px;
+    height: 33px;
+    margin-left: -8px;
+    display: inline-block;
+    border-radius: 50%;
+}
+
+.hero
+    .wrapper
+    .image-block
+    .active-students
+    .avatar-students
+    .quantity-students {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-width: 33px;
+    height: 33px;
+    margin-left: -8px;
+    border-radius: 50%;
+    background-color: var(--primary-color);
+}
+
+.hero
+    .wrapper
+    .image-block
+    .active-students
+    .avatar-students
+    .quantity-students
+    span {
+    display: block;
+    margin: 0 auto;
+    color: var(--white-color);
+    font-size: 1rem;
+    font-weight: 500;
+}
+
+.hero
+    .wrapper
+    .image-block
+    .active-students
+    .avatar-students
+    .img-avatar-students:first-child {
+    background-color: var(--primary-color);
+    margin-left: 0;
+}
+
+.hero
+    .wrapper
+    .image-block
+    .active-students
+    .avatar-students
+    .img-avatar-students:nth-child(2) {
+    background-color: #ffc147;
+}
+
+.hero
+    .wrapper
+    .image-block
+    .active-students
+    .avatar-students
+    .img-avatar-students:nth-child(3) {
+    background-color: #ff947a;
+}
+
+.hero
+    .wrapper
+    .image-block
+    .active-students
+    .avatar-students
+    .img-avatar-students:nth-child(4) {
+    background-color: #bf83ff;
+}
+
+.hero
+    .wrapper
+    .image-block
+    .active-students
+    .avatar-students
+    .img-avatar-students
+    img {
+    width: 33px;
+    height: 33px;
+    border-radius: 50%;
+    object-fit: cover;
 }
