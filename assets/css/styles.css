@@ -860,3 +860,25 @@ a {
     border-radius: 50%;
     object-fit: cover;
 }
+
+/* ========== Register account ========== */
+.account-register {
+    padding: 78px 0 88px;
+    background-color: #def6f5;
+}
+
+.account-register .account-register-wrapper {
+    display: flex;
+    align-items: center;
+}
+
+.account-register .account-register-wrapper .info {
+    margin-right: 410px;
+}
+
+.account-register .account-register-wrapper .desc {
+    margin-top: 18px;
+    color: #767e7e;
+    font-size: 1.8rem;
+    font-weight: 400;
+}
