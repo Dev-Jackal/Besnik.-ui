@@ -670,3 +670,193 @@ a {
     font-size: 1.8rem;
     font-weight: 400;
 }
+
+/* ========== Review ========== */
+.review {
+    padding: 200px 0 130px;
+}
+
+.review .review-body {
+    display: flex;
+}
+
+/* Review left */
+.review .review-body .review-left {
+    width: 36%;
+}
+
+.review .review-left .icons-blockquote {
+    margin-top: 35px;
+}
+
+.review .review-left .blockquote {
+    margin-top: 28px;
+    color: #5d6564;
+    font-size: 3.2rem;
+    font-weight: 400;
+    line-height: 1.5;
+}
+
+.review .review-left .author {
+    margin-top: 34px;
+    color: #767e7e;
+    font-size: 1.6rem;
+    font-weight: 400;
+}
+
+.review .review-left .author strong {
+    position: relative;
+    margin-left: 10px;
+    color: var(--black-color);
+    font-size: 1.6rem;
+    font-weight: 500;
+}
+
+.review .review-left .author strong::before {
+    position: absolute;
+    left: -10px;
+    top: 10px;
+    content: "";
+    width: 8px;
+    height: 2px;
+    background-color: var(--black-color);
+}
+
+.review .review-left .arrows-wrapper {
+    display: flex;
+    gap: 30px;
+    padding: 52px 0 38px;
+}
+
+.review .review-left .arrows-wrapper .arrow-left {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background-color: var(--primary-color);
+}
+
+.review .review-left .arrows-wrapper .arrow-right {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background-color: var(--primary-color);
+}
+
+.review .review-left .arrows-wrapper .arrow-left:hover,
+.review .review-left .arrows-wrapper .arrow-right:hover {
+    opacity: 0.8;
+}
+
+/* Review right */
+.review .review-body .review-right {
+    position: relative;
+    width: 64%;
+}
+
+.review .review-body .review-right .review-avatar-1 {
+    position: absolute;
+    top: 0;
+    left: 144px;
+    width: 92px;
+    height: 92px;
+    border-radius: 50%;
+    background-color: var(--primary-color);
+}
+
+.review .review-body .review-right .review-avatar-1 img {
+    width: 92px;
+    height: 92px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+.review .review-body .review-right .review-avatar-2 {
+    position: absolute;
+    top: 20px;
+    right: 0;
+    width: 110px;
+    height: 110px;
+    border-radius: 50%;
+    background-color: #bf83ff;
+}
+
+.review .review-body .review-right .review-avatar-2 img {
+    width: 110px;
+    height: 110px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+.review .review-body .review-right .review-avatar-3 {
+    position: absolute;
+    top: 108px;
+    right: 172px;
+    width: 235px;
+    height: 235px;
+    border-radius: 50%;
+    background-color: #ff8282;
+}
+
+.review .review-body .review-right .review-avatar-3 img {
+    width: 235px;
+    height: 235px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+.review .review-body .review-right .review-avatar-4 {
+    position: absolute;
+    top: 258px;
+    left: 0;
+    width: 78px;
+    height: 78px;
+    border-radius: 50%;
+    background-color: #ffc147;
+}
+
+.review .review-body .review-right .review-avatar-4 img {
+    width: 78px;
+    height: 78px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+.review .review-body .review-right .review-avatar-5 {
+    position: absolute;
+    bottom: 0;
+    left: 212px;
+    width: 78px;
+    height: 78px;
+    border-radius: 50%;
+    background-color: #ff947a;
+}
+
+.review .review-body .review-right .review-avatar-5 img {
+    width: 78px;
+    height: 78px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+.review .review-body .review-right .review-avatar-6 {
+    position: absolute;
+    right: 32px;
+    bottom: 29px;
+    width: 78px;
+    height: 78px;
+    border-radius: 50%;
+    background-color: #b1dfdc;
+}
+
+.review .review-body .review-right .review-avatar-6 img {
+    width: 78px;
+    height: 78px;
+    border-radius: 50%;
+    object-fit: cover;
+}
