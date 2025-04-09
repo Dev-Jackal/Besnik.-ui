@@ -917,6 +917,11 @@ a {
     display: flex;
 }
 
+.footer .footer-row .footer-column .list .list-item .icons-img img {
+    width: 14px;
+    height: 14px;
+}
+
 .footer .footer-row .footer-column .list .list-item .icons-img img:hover {
     opacity: 0.6;
 }
