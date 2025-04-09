@@ -10,6 +10,7 @@
 
 html {
     font-size: 62.5%;
+    scroll-behavior: smooth;
 }
 
 body {
@@ -186,7 +187,7 @@ a {
 }
 
 .hero .wrapper .info-block .cta-group .play-btn:hover {
-    opacity: 0.7;
+    opacity: 0.6;
 }
 
 /* Hero right */
@@ -871,11 +872,8 @@ a {
 
 .account-register .account-register-wrapper {
     display: flex;
+    justify-content: space-between;
     align-items: center;
-}
-
-.account-register .account-register-wrapper .info {
-    margin-right: 410px;
 }
 
 .account-register .account-register-wrapper .desc {
@@ -883,4 +881,62 @@ a {
     color: #767e7e;
     font-size: 1.8rem;
     font-weight: 400;
+}
+
+/* ========== Footer ========== */
+.footer {
+    padding: 130px 0 50px;
+}
+
+.footer .footer-row {
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer .footer-row .footer-column .title {
+    color: var(--black-color);
+    font-size: 1.8rem;
+    font-weight: 500;
+    padding-bottom: 26px;
+}
+
+.footer .footer-row .footer-column .list li {
+    padding-bottom: 20px;
+}
+
+.footer .footer-row .footer-column .list li a {
+    color: #535353;
+    font-size: 1.6rem;
+}
+
+.footer .footer-row .footer-column .list li a:hover {
+    text-decoration: underline;
+}
+
+.footer .footer-row .footer-column .list .list-item {
+    display: flex;
+}
+
+.footer .footer-row .footer-column .list .list-item .icons-img img:hover {
+    opacity: 0.6;
+}
+
+.footer .footer-row .footer-column .list .list-item .socials-name {
+    color: #535353;
+    font-size: 1.6rem;
+    margin: 0 0 18px 10px;
+}
+
+.footer .footer-row .footer-column .list .list-item .socials-name:hover {
+    text-decoration: underline;
+}
+
+.footer .footer-copyright {
+    padding: 60px 0 50px;
+}
+
+.footer .footer-copyright .desc {
+    color: #b0b5b4;
+    font-size: 1.8rem;
+    text-align: center;
 }
